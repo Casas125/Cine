@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Horario y Asiento</title>
+    <link rel="stylesheet" href="/cine/css/inicio.css">
+</head>
+<body>
+
+    <div class="compra-container">
+        <h2 id="peliculaSeleccionada">Película</h2>
+
+        <div class="horarios">
+            <h3>Selecciona un horario:</h3>
+            <button class="horario">12:00 PM</button>
+            <button class="horario">3:00 PM</button>
+            <button class="horario">6:00 PM</button>
+            <button class="horario">9:00 PM</button>
+        </div>
+
+        <div class="asientos">
+            <h3>Selecciona un asiento:</h3>
+            <div class="asientos-grid" id="asientosGrid"></div>
+        </div>
+
+        <button id="confirmarCompra" class="btn-comprar" disabled>Confirmar Compra</button>
+    </div>
+
+    <script src="/cine/javascript/Funcion.js"></script>
+</body>
+</html>
